@@ -41,7 +41,7 @@ body {
     padding: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .apresentacao__conteudo {
@@ -97,7 +97,7 @@ body {
 
 .apresentacao__links__link:hover {
     background-color: #A3C4BC;
-    color: var(--cor-fonte);
+    color: var(--cor-secundaria);
 }
 
 .rodape {
