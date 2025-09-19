@@ -1,0 +1,45 @@
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes__conteudo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 2.5rem;
+}
+
+.informacoes__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+}
+
+.informacoes__experiencia-profissional, .informacoes__formacao, .informacoes_capacitacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.informacoes__experiencia-profissional__titulo, .informacoes__formacao__titulo, .informacoes__capacitacoes__titulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+}
+
+.informacoes__experiencia-profissional__texto, .informacoes__formacao__texto, .informacoes__capacitacoes__texto {
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.informacoes__experiencia-profissional__cargo, .informacoes__formacao__curso, .informacoes__capacitacoes__curso {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.informacoes__experiencia-profissional__local, .informacoes__formacao__local, .informacoes__capacitacoes__local {
+    font-size: 1.1rem;
+}
+
